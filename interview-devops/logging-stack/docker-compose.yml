@@ -32,7 +32,7 @@ services:
       - correvate
       # Spring Boot application
   spring-app:
-    image: deepika4090/correvate-test/my-api:1.0.0.1591234567
+    image: deepika4090/my-api-1.0.0.1591234567
     ports:
       - "8080:8080"
     networks:
